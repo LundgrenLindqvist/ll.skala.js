@@ -1,12 +1,25 @@
-#ll.filtrera.js
+#ll.skala.js
 
     By: Lundgren+Lindqvist
     http://development.lundgrenlindqvist.se
 
 ## Usage
 
-Sorts vast amount of content by a preset list of tags or the users' own search terms. The script finds all content within each item (such as tags, categories or other keywords). It even finds content that is not visible on the screen.
+The Skala script is a light-weight and versatile solution for scaling an element within another. The arguments make it very flexible, and it can be used on a single element as well as all childs of a parent. Oh, and did we mention it is responsive?
+
+There are a number of paramters available making the script flexible and usable in most cases when content, for instance images, should be scale to fit another element, with whatever dimensions you set.
+
+The parameters available are:
+
+    'bleed' : true, false (default)
+    'margin' : 0 (default),
+    'align' : left, center (default), right
+    'valign' : top, center (default), bottom
 
 ## Demo
 
-http://development.lundgrenlindqvist.se/scripts/filtrera/
+http://development.lundgrenlindqvist.se/scripts/skala/
+
+### Responsive Demo
+
+http://development.lundgrenlindqvist.se/scripts/skala/
