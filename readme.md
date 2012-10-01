@@ -1,25 +1,27 @@
 #ll.skala.js
 
     By: Lundgren+Lindqvist
-    http://development.lundgrenlindqvist.se
+    http://dev.lundgrenlindqvist.se
 
 ## Usage
 
-The Skala script is a light-weight and versatile solution for scaling an element within another. The arguments make it very flexible, and it can be used on a single element as well as all childs of a parent. Oh, and did we mention it is responsive?
+The Skala script is a light-weight and versatile solution for scaling an element within another. The arguments make it very flexible, and it can be used on a single element as well as all children of a parent.
 
-There are a number of paramters available making the script flexible and usable in most cases when content, for instance images, should be scale to fit another element, with whatever dimensions you set.
+There are a number of parameters available making the script flexible and usable in most cases when content, for instance images, should be scale to fit another element, with whatever dimensions you set.
 
 The parameters available are:
 
     'bleed' : true, false (default)
-    'margin' : 0 (default),
+    'margin' : 0 (default)
     'align' : left, center (default), right
     'valign' : top, center (default), bottom
 
+Please note that the parameter 'bleed' refers to what is more commonly known as "full screen" on the web. The term "bleed" is a print term, but we thought it made sense here as it refers to the fact that the images are scaled up to fill the whole screen, which means that in most cases some of the image will be "bleeding" outside the viewport.
+
 ## Demo
 
-http://development.lundgrenlindqvist.se/scripts/skala/
+http://dev.lundgrenlindqvist.se/scripts/skala/
 
 ### Responsive Demo
 
-http://development.lundgrenlindqvist.se/scripts/skala/
+http://dev.lundgrenlindqvist.se/scripts/skala/
