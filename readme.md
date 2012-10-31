@@ -7,7 +7,22 @@
 
 The Skala script is a light-weight and versatile solution for scaling an element within another. The arguments make it very flexible, and it can be used on a single element as well as all children of a parent.
 
-There are a number of parameters available making the script flexible and usable in most cases when content, for instance images, should be scale to fit another element, with whatever dimensions you set.
+### Basic Usage
+
+Apply the Skala script to a parent container to scale the contents. Note that the parent container must have set dimensions, but any dimension work. All child elements must also have a 'position' set with CSS if you want the positioning of the elements to work properly.
+
+    $('#container').llskala();
+
+This equals to
+
+    $('#container').llskala({
+        'bleed' : false,
+        'margin' : 0,
+        'align' : center, 
+        'valign' : center
+    });
+
+The parameters available make the script flexible and usable in most cases when content, for instance images, should be scaled to fit another element. 
 
 The parameters available are:
 
