@@ -1,7 +1,7 @@
 #ll.skala.js
 
     By: Lundgren+Lindqvist
-    http://dev.lundgrenlindqvist.se
+    http://www.lundgrenlindqvist.se/development
 
 ## Usage
 
@@ -35,10 +35,8 @@ The parameters available are:
 
 Please note that the parameter 'bleed' refers to what is more commonly known as "full screen" on the web. The term "bleed" is a print term, but we thought it made sense here as it refers to the fact that the images are scaled up to fill the whole screen, which means that in most cases some of the image will be "bleeding" outside the viewport.
 
-## Demo
+### Updates
 
-http://dev.lundgrenlindqvist.se/scripts/skala/
+#### 2015-06-22
 
-### Responsive Demo
-
-http://dev.lundgrenlindqvist.se/scripts/skala/popup.html
+Noticed the scaling sometime will be troublesome when the image has no .width() or .height() value (for whatever reason). Added the possibility to use the ”data-org-width” and ”data-org-height” attributes in order to always preserve a correct ratio.

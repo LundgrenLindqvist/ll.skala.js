@@ -38,8 +38,15 @@
         img.each(function(index) {
         
             i = $(this);            
-            iw = Math.round(i.width());
-            ih = Math.round(i.height());
+            if ( i.attr('data-org-width') )
+                iw = i.attr('data-org-width');
+            else
+                iw = Math.round(i.width());
+            if ( i.attr('data-org-height') )
+                ih = i.attr('data-org-height');
+            else
+                ih = Math.round(i.height());     
+                         
             y = iw / ih; // Check image orientation, positive value indicates landscape
             
             css = {left: 0, top: 0}
