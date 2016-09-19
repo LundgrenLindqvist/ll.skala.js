@@ -1,4 +1,4 @@
-#ll.skala.js
+# ll.skala.js
 
     By: Lundgren+Lindqvist
     http://www.lundgrenlindqvist.se/development
